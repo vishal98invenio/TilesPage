@@ -1,0 +1,28 @@
+<mvc:View controllerName="App.zApplication.controller.P1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" 
+xmlns:l="sap.ui.layout">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						
+						<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="SAP Projects" press="press">
+		<TileContent unit="SAP" footer="Latest Updates">
+			<ImageContent src="test-resources/sap/m/demokit/sample/GenericTileAsLaunchTile/images/SAPLogoLargeTile_28px_height.png" />
+		</TileContent>
+	</GenericTile>
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Invenio Business Solutions"
+		subheader="Subtitle" press="press">
+		<TileContent>
+			<ImageContent src="" />
+		</TileContent>
+	</GenericTile>
+
+
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
